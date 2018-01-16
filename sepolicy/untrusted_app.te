@@ -1,0 +1,2 @@
+allow untrusted_app proc:file read;
+allow untrusted_app rootfs:dir read;
