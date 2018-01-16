@@ -4,6 +4,7 @@ type dumpsys, domain;
 allow cameraserver persist_file:file { rw_file_perms setattr };
 
 allow cameraserver self:process { execmem };
+allow cameraserver self:tcp_socket create;
 
 allow cameraserver shell_exec:file { r_file_perms };
 
