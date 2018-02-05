@@ -1,0 +1,6 @@
+allow hal_bluetooth_default wcnss_filter:unix_stream_socket { connectto };
+
+allow hal_bluetooth_default bluetooth_data_file:dir { search };
+allow hal_bluetooth_default bluetooth_data_file:file { r_file_perms };
+
+allow hal_sensors_default diag_device:chr_file { read write };
