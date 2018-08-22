@@ -1,6 +1,2 @@
 # neverallow
 #allow surfaceflinger hal_display_config_hwservice:hwservice_manager { add };
-
-allow surfaceflinger diag_device:chr_file { read write };
-
-

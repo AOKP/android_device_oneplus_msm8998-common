@@ -1,4 +1,1 @@
-allow priv_app hal_memtrack_hwservice:hwservice_manager find;
-
 get_prop(priv_app, camera_prop)
-
